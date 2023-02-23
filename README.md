@@ -2,7 +2,7 @@
  * @Author: Cherry 2858937488@qq.com
  * @Date: 2023-02-20 16:59:08
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-02-21 15:21:26
+ * @LastEditTime: 2023-02-23 14:31:04
  * @FilePath: \demo\README.md
  * @Description: 项目说明
 -->
@@ -49,7 +49,7 @@ git clone
 - 安装依赖
 
 ```bash
-cd admin
+cd admin-demo
 
 pnpm install
 
