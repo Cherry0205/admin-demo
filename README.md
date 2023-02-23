@@ -2,7 +2,7 @@
  * @Author: Cherry 2858937488@qq.com
  * @Date: 2023-02-20 16:59:08
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-02-23 15:30:52
+ * @LastEditTime: 2023-02-23 15:38:55
  * @FilePath: \demo\README.md
  * @Description: 项目说明
 -->
@@ -28,7 +28,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 # 本项目用到的技术栈
 
-vue 3.2 + vite4 + typescript4 + Ant Design Vue3.x + less + axios
+Vue 3.2 + Vite4 + Typescript4 + Ant Design Vue3.x + Less + Axios
 
 # 代码风格检查与格式化
 
@@ -38,13 +38,14 @@ vue 3.2 + vite4 + typescript4 + Ant Design Vue3.x + less + axios
 # 提交规范
 
 commitlint 采用默认规则，提交类型如下：
-feat：增加新功能
-fix：修复问题/BUG
-style：代码风格相关无影响运行结果的
-docs：文档/注释
-test：测试相关
-refactor：重构
-revert：撤销修改
+
+1. feat：增加新功能
+2. fix：修复问题/BUG
+3. style：代码风格相关无影响运行结果的
+4. docs：文档/注释
+5. test：测试相关
+6. refactor：重构
+7. revert：撤销修改
 
 ## 准备
 
