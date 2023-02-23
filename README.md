@@ -2,7 +2,7 @@
  * @Author: Cherry 2858937488@qq.com
  * @Date: 2023-02-20 16:59:08
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-02-23 14:31:04
+ * @LastEditTime: 2023-02-23 15:30:52
  * @FilePath: \demo\README.md
  * @Description: 项目说明
 -->
@@ -28,13 +28,23 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 # 本项目用到的技术栈
 
-vue 3.2 + vite4 + typescript4 +
+vue 3.2 + vite4 + typescript4 + Ant Design Vue3.x + less + axios
 
 # 代码风格检查与格式化
 
-1. eslint + prettier
-2. 使用阿里规范 eslint-config-ali
-3. 如果多人开发代码风格不一，在确认 node 环境、依赖有差异的情况下，可以在配置文件里设置默认规则
+1. 使用阿里规范 eslint-config-ali
+2. 如果多人开发代码风格不一，在确认 node 环境、依赖有差异的情况下，可以在配置文件里设置默认规则
+
+# 提交规范
+
+commitlint 采用默认规则，提交类型如下：
+feat：增加新功能
+fix：修复问题/BUG
+style：代码风格相关无影响运行结果的
+docs：文档/注释
+test：测试相关
+refactor：重构
+revert：撤销修改
 
 ## 准备
 
@@ -43,7 +53,7 @@ vue 3.2 + vite4 + typescript4 +
 - 获取项目代码
 
 ```bash
-git clone
+git clone git@github.com:Cherry0205/admin-demo.git
 ```
 
 - 安装依赖
