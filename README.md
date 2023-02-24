@@ -2,7 +2,7 @@
  * @Author: Cherry 2858937488@qq.com
  * @Date: 2023-02-20 16:59:08
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-02-23 15:38:55
+ * @LastEditTime: 2023-02-23 17:09:53
  * @FilePath: \demo\README.md
  * @Description: 项目说明
 -->
@@ -33,7 +33,7 @@ Vue 3.2 + Vite4 + Typescript4 + Ant Design Vue3.x + Less + Axios
 # 代码风格检查与格式化
 
 1. 使用阿里规范 eslint-config-ali
-2. 如果多人开发代码风格不一，在确认 node 环境、依赖有差异的情况下，可以在配置文件里设置默认规则
+2. 如果多人开发代码风格不一，在确认 node 环境、依赖无差异的情况下，可以在配置文件里设置默认规则
 
 # 提交规范
 
@@ -69,7 +69,7 @@ pnpm install
 - 运行
 
 ```bash
-pnpm serve
+pnpm dev
 ```
 
 - 打包
