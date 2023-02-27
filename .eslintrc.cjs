@@ -2,7 +2,7 @@
  * @Author: Cherry 2858937488@qq.com
  * @Date: 2023-02-21 16:08:34
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-02-22 12:12:53
+ * @LastEditTime: 2023-02-27 17:35:04
  * @FilePath: \admin-demo\.eslintrc.cjs
  * @Description: 代码校验
  */
@@ -27,5 +27,9 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module'
   },
-  plugins: ['vue', '@typescript-eslint']
+  plugins: ['vue', '@typescript-eslint'],
+  rules: {
+    'import/no-unresolved': 'off',
+    'vue/multi-word-component-names': 'off' // 要求组件名称始终为 “-” 链接的单词
+  }
 }
