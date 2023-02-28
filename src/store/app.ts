@@ -2,14 +2,14 @@
  * @Author: Cherry 2858937488@qq.com
  * @Date: 2023-02-24 14:50:50
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-02-27 13:56:47
+ * @LastEditTime: 2023-02-28 09:53:35
  * @FilePath: \admin-demo\src\store\app.ts
  * @Description: app状态管理
  */
 import { defineStore } from 'pinia'
 import { AppState, DeviceType } from './interfaces'
 
-export const appStore = defineStore('App', {
+export const useAppStore = defineStore('App', {
   state: (): AppState => ({
     device: 'desktop', // 设备类型
     sidebar: {

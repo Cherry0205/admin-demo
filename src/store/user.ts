@@ -9,7 +9,7 @@
 import { defineStore } from 'pinia'
 import { UserState, UserInfo, RoleType } from './interfaces'
 
-export const userStore = defineStore('User', {
+export const useUserStore = defineStore('User', {
   state: (): UserState => ({
     token: '', // 登录token
     userId: '', // 用户id
