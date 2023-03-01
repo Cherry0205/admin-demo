@@ -30,6 +30,7 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint'],
   rules: {
     'import/no-unresolved': 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'vue/multi-word-component-names': 'off' // 要求组件名称始终为 “-” 链接的单词
   }
 }
