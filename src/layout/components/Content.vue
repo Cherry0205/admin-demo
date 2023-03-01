@@ -1,10 +1,10 @@
 <!--
  * @Author: Cherry 2858937488@qq.com
- * @Date: 2023-02-20 16:59:08
+ * @Date: 2023-03-01 10:04:11
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-03-01 14:04:27
- * @FilePath: \demo\src\App.vue
- * @Description: App.vue
+ * @LastEditTime: 2023-03-01 18:08:45
+ * @FilePath: \admin-demo\src\layout\components\Content.vue
+ * @Description: 页面内容
 -->
 <template>
   <router-view v-slot="{ Component }">
