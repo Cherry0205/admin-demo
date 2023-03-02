@@ -2,7 +2,7 @@
  * @Author: Cherry 2858937488@qq.com
  * @Date: 2023-02-27 13:45:43
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-03-01 13:49:12
+ * @LastEditTime: 2023-03-02 17:02:01
  * @FilePath: \admin-demo\src\router\staticRoutes.ts
  * @Description: 基础路由
  */
@@ -53,6 +53,7 @@ const basicRoutes: RouteRecordRaw[] = [
 const errorRoutes: RouteRecordRaw[] = [
   {
     path: '/error',
+    name: 'Error',
     component: EMPTY_LAYOUT,
     meta: {
       title: '错误页',
@@ -61,6 +62,7 @@ const errorRoutes: RouteRecordRaw[] = [
     children: [
       {
         path: '403',
+        name: '403',
         component: ERROR_PAGE,
         meta: {
           title: '403'
@@ -68,6 +70,7 @@ const errorRoutes: RouteRecordRaw[] = [
       },
       {
         path: '404',
+        name: '404',
         component: ERROR_PAGE,
         meta: {
           title: '404'
@@ -75,6 +78,7 @@ const errorRoutes: RouteRecordRaw[] = [
       },
       {
         path: '500',
+        name: '500',
         component: ERROR_PAGE,
         meta: {
           title: '500'
