@@ -2,7 +2,7 @@
  * @Author: Cherry 2858937488@qq.com
  * @Date: 2023-03-01 10:04:11
  * @LastEditors: Cherry 2858937488@qq.com
- * @LastEditTime: 2023-03-01 17:43:36
+ * @LastEditTime: 2023-03-02 16:17:23
  * @FilePath: \admin-demo\src\layout\components\Header.vue
  * @Description: 页面头部
 -->
@@ -29,13 +29,13 @@
 </template>
 
 <script setup lang="ts">
-  import { ref } from 'vue'
+  import { computed } from 'vue'
+  import { useAppStore } from '@/store/app'
 
-  const collapsed = ref<boolean>(false)
+  const appStore = useAppStore()
+  const collapsed = computed(() => !appStore.siderbar.opened)
 
-  function toggleFoldMenu() {
-    collapsed.value = !collapsed.value
-  }
+  const toggleFoldMenu = appStore.toggleSiderBar
 </script>
 
 <style lang="less" scoped>
